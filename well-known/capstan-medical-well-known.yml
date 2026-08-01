@@ -1,0 +1,57 @@
+generated: '2026-08-01'
+method: probed
+source: live HTTP probes of https://capstanmedical.com
+host: https://capstanmedical.com
+result: none
+note: >-
+  No /.well-known/ discovery documents are published. Capstan Medical operates a
+  single WordPress marketing host; there is no API host, no developer subdomain
+  (api./developer./docs./dev./portal./status./trust./app. all NXDOMAIN) and no
+  identity provider surface. Every probe below returned an HTML 404 from the
+  WordPress catch-all. Recorded as negative evidence — no WellKnown or SecurityTxt
+  pointer is wired because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+contract_discovery:
+- path: /openapi.json
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /api-docs
+  status: 404
+- path: /graphql
+  status: 404
+- path: /llms.txt
+  status: 404
+hosts_checked:
+- host: capstanmedical.com
+  resolves: true
+- host: api.capstanmedical.com
+  resolves: false
+- host: developer.capstanmedical.com
+  resolves: false
+- host: docs.capstanmedical.com
+  resolves: false
+- host: dev.capstanmedical.com
+  resolves: false
+- host: portal.capstanmedical.com
+  resolves: false
+- host: status.capstanmedical.com
+  resolves: false
+- host: trust.capstanmedical.com
+  resolves: false
+- host: app.capstanmedical.com
+  resolves: false

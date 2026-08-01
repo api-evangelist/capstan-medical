@@ -1,0 +1,32 @@
+# Capstan Medical
+
+> Capstan Medical is a Santa Cruz, California medical device company founded in 2020 out of the Occam Labs incubator. It builds a surgical robotics platform for structural heart disease, combining robotic catheter navigation with next-generation transcatheter mitral and tricuspid valve implants so heart valves can be repaired or replaced without open heart surgery. Capstan is pre-commercial and publishes no public API, developer portal, SDKs, or machine-readable API contracts.
+
+## Company
+
+- [Capstan Medical](https://capstanmedical.com/): Company home.
+- [About Us](https://capstanmedical.com/about-us/): Founding, leadership team, Santa Cruz and Portola Valley locations.
+- [Our Solution](https://capstanmedical.com/our-solution/): The robotic platform, catheter delivery system, and valve implants.
+- [News and Events](https://capstanmedical.com/news-and-events/): Press releases and milestones.
+- [Contact Us](https://capstanmedical.com/contact-us/): General inquiries.
+- [Careers](https://capstanmedical.com/careers/): Open engineering and clinical roles.
+
+## APIs
+
+Capstan Medical publishes no public API. Contract discovery on 2026-08-01 found no
+OpenAPI, Swagger, GraphQL, AsyncAPI, MCP, or A2A surface on capstanmedical.com, and no
+api/developer/docs/portal subdomain resolves. This is expected for a pre-commercial,
+FDA-regulated implantable device and capital-equipment company: the robot and the
+implants are the product, not a developer platform.
+
+## Artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/capstan-medical/refs/heads/main/apis.yml): APIs.json 0.20 index for this company.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/capstan-medical/refs/heads/main/security/capstan-medical-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF, DMARC posture.
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/capstan-medical/refs/heads/main/well-known/capstan-medical-well-known.yml): Recorded negative results for every /.well-known/ and contract-discovery path.
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/capstanmedical): Company updates.
+- [GitHub organization](https://github.com/capstan-medical): One public repository, a fork of an embedded C++ state machine library. No API or SDK code.
+- [Forge Global secondary market](https://forgeglobal.com/capstan-medical_stock/): Private-market listing that surfaced this company into the API Evangelist harvest backlog.

@@ -1,8 +1,18 @@
 aid: capstan-medical
 name: Capstan Medical
-description: 'Capstan Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Capstan Medical is a Santa Cruz, California medical device company founded
+  in 2020 out of the Occam Labs incubator by Dan Wallace, with Maggie Nixon as CEO.
+  The company is developing a surgical robotics platform for structural heart disease,
+  merging robotic catheter navigation with next-generation transcatheter mitral and
+  tricuspid valve implants so heart valves can be repaired or replaced without open
+  heart surgery. In 2025 Capstan completed what it describes as the world''s first
+  robotic catheter mitral valve replacements in humans, and it raised a $110M Series
+  C led by Eclipse with participation from Intuitive Ventures and Yu Galaxy, bringing
+  total funding past $150M ahead of a second-generation system planned for 2026. Capstan
+  is pre-commercial and regulated medical device focused: it publishes no public developer
+  portal, API documentation, SDKs, or machine-readable API contracts.'
 url: https://raw.githubusercontent.com/api-evangelist/capstan-medical/refs/heads/main/apis.yml
+image: https://capstanmedical.com/wp-content/uploads/2023/07/Logo-1-black.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +22,13 @@ created: '2026-08-01'
 modified: '2026-08-01'
 tags:
 - Company
+- Medical Devices
+- Surgical Robotics
+- Structural Heart
+- Cardiovascular
+- Healthcare
+- Robotics
+- Medical Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/capstan-medical-domain-security.yml
 - type: Website
+  url: https://capstanmedical.com/
+- type: About
+  url: https://capstanmedical.com/about-us/
+- type: Products
+  url: https://capstanmedical.com/our-solution/
+- type: Blog
+  url: https://capstanmedical.com/news-and-events/
+- type: BlogRSS
+  url: https://capstanmedical.com/feed/
+- type: Support
+  url: https://capstanmedical.com/contact-us/
+- type: TermsOfService
+  url: https://capstanmedical.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://capstanmedical.com/privacy-policy/
+- type: Careers
+  url: https://capstanmedical.com/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/capstanmedical
+- type: GitHubOrganization
+  url: https://github.com/capstan-medical
+- type: LLMsTxt
+  url: llms/capstan-medical-llms.txt
+- type: SecondaryMarket
   url: https://forgeglobal.com/capstan-medical_stock/
+x-enrichment:
+  date: '2026-08-01'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
